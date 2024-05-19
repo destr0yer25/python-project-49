@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import prompt
 import random
 
@@ -26,11 +27,11 @@ def block_of_the_game():
             print('Correct!')
             count += 1
         elif user_ans != 'yes' or user_ans != 'no':
-            print(f'{user_ans} is wrong answer ;(. Correct answer was {ans})')
+            print(f"'{user_ans}' is wrong answer ;(. Correct answer was '{ans}'.")
             print(f"Let's try again, {name}!")
             break
         else:
-            print(f'{user_ans} is wrong answer ;(. Correct answer was {ans})')
+            print(f"'{user_ans}' is wrong answer ;(. Correct answer was '{ans}'.")
             print(f"Let's try again, {name}!")
             break
     if count == 3:
