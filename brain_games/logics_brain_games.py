@@ -1,6 +1,7 @@
 import prompt
 import random
 
+
 def greeting():
     global name
     name = prompt.string('May I have your name? ')
@@ -13,23 +14,23 @@ def block_of_the_game():
     for _ in range(3):
         random_number = random.randint(1, 1000)
         if random_number % 2 == 0:
-            control = 'yes'
+            ans = 'yes'
         else:
-            control = 'no'
+            ans = 'no'
         print(f'Question: {random_number}')
-        user_answer = prompt.string('Your answer: ')
-        if random_number % 2 == 0 and user_answer == 'yes':
+        user_ans = prompt.string('Your answer: ')
+        if random_number % 2 == 0 and user_ans == 'yes':
             print('Correct!')
             count += 1
-        elif random_number % 2 != 0 and user_answer == 'no':
+        elif random_number % 2 != 0 and user_ans == 'no':
             print('Correct!')
             count += 1
-        elif user_answer != 'yes' or user_answer != 'no':
-            print(f'{user_answer} is wrong answer ;(. Correct answer was {control})')
+        elif user_ans != 'yes' or user_ans != 'no':
+            print(f'{user_ans} is wrong answer ;(. Correct answer was {ans})')
             print(f"Let's try again, {name}!")
             break
         else:
-            print(f'{user_answer} is wrong answer ;(. Correct answer was {control})')
+            print(f'{user_ans} is wrong answer ;(. Correct answer was {ans})')
             print(f"Let's try again, {name}!")
             break
     if count == 3:
