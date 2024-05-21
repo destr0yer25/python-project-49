@@ -59,3 +59,28 @@ def block_of_the_game_calc():
             break
     if count == 3:
         print(f'Congratulations, {name}!')
+
+
+def block_of_the_game_gcd():
+    print('Find the greatest common divisor of given number.')
+    flag = True
+    gcd = 1
+    for _ in range(3):
+        random_number_1 = random.randint(1, 100)
+        random_number_2 = random.randint(1, 100)
+        print(f'Question: {random_number_1} {random_number_2}')
+        user_ans = prompt.integer('Your answer: ')
+        for i in range(1, max(random_number_1, random_number_2) + 1):
+            if random_number_1 % i == 0 and random_number_2 % i == 0:
+                gcd = i
+        if user_ans == gcd:
+            print('Correct!')
+            gcd = 1
+        else:
+            flag = False
+            print(f"'{user_ans}' is wrong answer ;(. Correct answer was '{gcd}'.")
+            print(f"Let's try again, {name}!")
+            break
+    if flag:
+        print(f'Congratulations, {name}!')
+        

@@ -6,3 +6,5 @@
 [![asciicast](https://asciinema.org/a/UtleYckdvWf1nH4YEscxV4ccW.svg)](https://asciinema.org/a/UtleYckdvWf1nH4YEscxV4ccW)
 ### Brain-calc review of the game
 [![asciicast](https://asciinema.org/a/uCRQ1qKMZ2wMsebGiDe4FbAjg.svg)](https://asciinema.org/a/uCRQ1qKMZ2wMsebGiDe4FbAjg)
+### Brain-gcd review of the game
+[![asciicast](https://asciinema.org/a/wqTjkCKDgoHSIBTONBpXtkLmu.svg)](https://asciinema.org/a/wqTjkCKDgoHSIBTONBpXtkLmu)
