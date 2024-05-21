@@ -8,3 +8,5 @@
 [![asciicast](https://asciinema.org/a/uCRQ1qKMZ2wMsebGiDe4FbAjg.svg)](https://asciinema.org/a/uCRQ1qKMZ2wMsebGiDe4FbAjg)
 ### Brain-gcd review of the game
 [![asciicast](https://asciinema.org/a/wqTjkCKDgoHSIBTONBpXtkLmu.svg)](https://asciinema.org/a/wqTjkCKDgoHSIBTONBpXtkLmu)
+### Brain-progression review of the game
+[![asciicast](https://asciinema.org/a/w7kVHUuuZvHAPVIPhqnOIJP9l.svg)](https://asciinema.org/a/w7kVHUuuZvHAPVIPhqnOIJP9l)
