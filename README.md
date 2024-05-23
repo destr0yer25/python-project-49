@@ -10,3 +10,5 @@
 [![asciicast](https://asciinema.org/a/wqTjkCKDgoHSIBTONBpXtkLmu.svg)](https://asciinema.org/a/wqTjkCKDgoHSIBTONBpXtkLmu)
 ### Brain-progression review of the game
 [![asciicast](https://asciinema.org/a/w7kVHUuuZvHAPVIPhqnOIJP9l.svg)](https://asciinema.org/a/w7kVHUuuZvHAPVIPhqnOIJP9l)
+### Brain-prime review of the game
+[![asciicast](https://asciinema.org/a/k1MjTALwTXcBcStvZMhs47LMy.svg)](https://asciinema.org/a/k1MjTALwTXcBcStvZMhs47LMy)
