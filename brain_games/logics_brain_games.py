@@ -11,7 +11,7 @@ def greeting():
 
 
 def block_of_the_game_even():
-    print('Answer "yes" if the number is even, otherwise answer "no"')
+    print('Answer "yes" if the number is even, otherwise answer "no".')
     count = 0
     for _ in range(3):
         random_number = random.randint(1, 1000)
