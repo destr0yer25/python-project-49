@@ -62,7 +62,7 @@ def block_of_the_game_calc():
 
 
 def block_of_the_game_gcd():
-    print('Find the greatest common divisor of given number.')
+    print('Find the greatest common divisor of given numbers.')
     flag = True
     gcd = 1
     for _ in range(3):
