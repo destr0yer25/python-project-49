@@ -1,5 +1,4 @@
 ## Python project consisting of 5 mini-games
-___
 
 ### Minimal requirements
 #### 1. Python>=3.6
