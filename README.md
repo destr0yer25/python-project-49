@@ -3,6 +3,7 @@
 ### Minimal requirements
 #### 1. Python>=3.6
 #### 2. Poetry>=1.2.0
+#### 3. Pip>=19.0
 
 ### To install the package
 #### python3 -m pip install --user git+https://github.com/destr0yer25/python-project-49.git
