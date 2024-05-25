@@ -101,6 +101,7 @@ def block_of_the_game_progression():
                 next_number += step
                 progress_list.append(f'{next_number}')
         index_hidden_number = progress_list.index(random.choice(progress_list))
+        hidden_number = progress_list[index_hidden_number]
         progress_list[index_hidden_number] = '..'
         print(f'Question: {" ".join(progress_list)}')
         user_ans = prompt.integer('Your answer: ')
@@ -110,7 +111,7 @@ def block_of_the_game_progression():
             print('Correct!')
         else:
             flag = False
-            print(f"'{user_ans}' is wrong answer ;(. Correct answer was '{int(progress_list[index_hidden_number - 1]) + step}'.")
+            print(f"'{user_ans}' is wrong answer ;(. Correct answer was '{hidden_number}'.")
             print(f"Let's try again, {name}!")
             break
     if flag:
