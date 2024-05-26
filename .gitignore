@@ -1,3 +1,7 @@
-.venv
+.venv/
 demo.cast
 demp.cast
+__pycache__
+*.pyc
+dist/
+
