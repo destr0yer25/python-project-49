@@ -2,7 +2,7 @@
 import prompt
 import random
 import operator
-from brain_games import logics_brain_games
+from brain_games import common_logic_bg
 
 
 def block_of_the_game_calc():
@@ -26,7 +26,7 @@ def block_of_the_game_calc():
         elif user_ans != operators[key]:
             print(f"'{user_ans}' is wrong answer ;(."
                   f"Correct answer was '{operators[key]}'.")
-            print(f"Let's try again, {logics_brain_games.return_user_name()}!")
+            print(f"Let's try again, {common_logic_bg.return_user_name()}!")
             break
     if count == 3:
-        print(f'Congratulations, {logics_brain_games.return_user_name()}!')
+        print(f'Congratulations, {common_logic_bg.return_user_name()}!')

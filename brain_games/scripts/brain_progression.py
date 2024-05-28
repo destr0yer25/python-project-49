@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
-from brain_games import logics_brain_games
+from brain_games import common_logic_bg
+from brain_games.games import brain_progression_game_logic
 
 
 def main():
     print('Welcome to the Brain Games!')
-    logics_brain_games.greeting()
-    logics_brain_games.block_of_the_game_progression()
+    common_logic_bg.greeting()
+    brain_progression_game_logic.block_of_the_game_progression()
 
 
 if __name__ == '__main__':
