@@ -41,5 +41,6 @@ def block_of_the_game_progression():
                   f"Correct answer was '{hidden_number}'.")
             print(f"Let's try again, {common_logic_bg.return_user_name()}!")
             break
-    if flag:
-        print(f'Congratulations, {common_logic_bg.return_user_name()}!')
+    print(
+        f'Congratulations, {common_logic_bg.return_user_name()}!'
+    ) if flag else None
