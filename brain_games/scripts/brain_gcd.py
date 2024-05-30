@@ -1,12 +1,10 @@
 #!/usr/bin/env python3
 from brain_games import common_logic_bg
-from brain_games.games import brain_gcd_game_logic
+from brain_games.games.brain_gcd_game_logic import block_of_the_game_gcd
 
 
 def main():
-    print('Welcome to the Brain Games!')
-    common_logic_bg.greeting()
-    brain_gcd_game_logic.block_of_the_game_gcd()
+    common_logic_bg.game_launch(block_of_the_game_gcd)
 
 
 if __name__ == '__main__':
