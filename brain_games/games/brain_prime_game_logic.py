@@ -5,18 +5,14 @@ from brain_games import common_logic_bg
 
 
 def is_prime():
-    control = ''
+    control = 'yes'
     random_number = random.randint(1, 300)
     if random_number == 1:
         control = 'no'
-    elif random_number == 2:
-        control = 'yes'
     for i in range(2, random_number):
         if random_number % i == 0:
             control = 'no'
             break
-        else:
-            control = 'yes'
     return control, random_number
 
 
